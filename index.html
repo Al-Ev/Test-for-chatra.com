@@ -17,7 +17,7 @@ function initLandbot() {
     s.type = "module"
     s.async = true;
     s.addEventListener('load', function() {
-      myLandbot = new Landbot.Popup({
+      var myLandbot = new Landbot.Livechat({
         configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-3077713-RFKBKG1ZFV4J9TJR/index.json',
       });
     });
